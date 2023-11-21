@@ -27,31 +27,67 @@ body{
     height: 48px;
     border-radius: 50%;
     background: #262E38;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .star-icon {
-    position: absolute;
-    left: auto;
-    right: auto;
     width: 17px;
     height: 16px;
 }
 .rating-component__title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 30px;
+
+
 }
 .rating-component__text {
+    width: 320px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+    color: #969FAD;
+    margin-bottom: 38px;
+
 }
 .rating-component__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
 }
 .star-rating {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 }
 .rating-component__form-label {
+    background: #262E38;
+    border-radius:50%;
+    width: 51px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .rating-component__radio-button {
 }
 .visually-hidden {
+    appearance:none;
 }
 .rating-component__form-control {
+    color: #7C8798;
+
 }
 .rating-component__form-button {
 }
