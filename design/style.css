@@ -9,6 +9,7 @@ body{
 
 .conteiner {
     display: flex;
+    align-items:center;
     justify-content: space-between;
     width: 1200px;
     margin-right: auto;
@@ -121,7 +122,44 @@ body{
 .thank-you {
     display: flex;
     align-items:center;
+    flex-direction: column;
     justify-content: center;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.thank-you__link {
+    margin-top: 30px;
+    padding: 8px 16px;
+    border-radius:20px;
+    background-color:#262E38;
     
+    color:#FC7614;
+    font-size: 16px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover{
+        background-color: #FC7614;
+        color:#FFFFFF;
+    }
+}
+.thank-you__title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.thank-you__text {
+    width: 305px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+    color: #969FAD;
+    text-align: center;
 }
