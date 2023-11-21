@@ -1,3 +1,61 @@
-.rating-component__radio-button{
-    appearance:none;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.intractive-rating-component {
+    width: 412px;
+    padding: 32px;
+    margin-bottom: 30px;
+    border-radius:20px;
+    margin-top: 100px;
+    background-color: black;
+}
+.rating-component__star-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #262E38;
+    position: relative;
+    
+}
+.star-icon {
+    position: absolute;
+    left: auto;
+    right: auto;
+    width: 17px;
+    height: 16px;
+}
+.rating-component__title {
+}
+.rating-component__text {
+}
+.rating-component__form {
+}
+.star-rating {
+}
+.rating-component__form-label {
+}
+.rating-component__radio-button {
+}
+.visually-hidden {
+}
+.rating-component__form-control {
+}
+.rating-component__form-button {
+}
+.interactive-rating-component {
+}
+.thank-you {
 }
