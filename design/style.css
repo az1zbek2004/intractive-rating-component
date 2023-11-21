@@ -78,9 +78,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
 
 }
-.rating-component__radio-button {
+/* pseudo class  */
+.rating-component__form-label:hover {
+    background: #FC7614;
+    color:black;
+.rating-component__form-control{
+        color:black;
+    }
 }
 .visually-hidden {
     appearance:none;
@@ -90,8 +98,30 @@ body{
 
 }
 .rating-component__form-button {
-}
-.interactive-rating-component {
+    padding: 13px 0;
+    background: #FFFFFF;
+    border-radius:40px;
+
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FC7614;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover{
+        background-color: #FC7614;
+        color:#FFFFFF;
+    }
 }
 .thank-you {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    
 }
